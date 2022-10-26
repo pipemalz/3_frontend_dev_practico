@@ -1,0 +1,29 @@
+.main--myorders{
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title{
+    display: block;
+    align-self: flex-start;
+}
+.section--orders{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+}
+.order-summary{
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+}
+.order-summary__arrow{
+    margin-left: 2rem;
+}
+@media screen and (min-width: 640px){
+    .main--myorders{
+        justify-content: center;
+    }
+}

@@ -1,10 +1,12 @@
 .main--myorder{
-    grid-template-rows: auto 1fr;
-    align-items: start;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .title {
     display: none;
-    margin: 5rem 0;
+    margin: 2rem 0 0 1.5rem;
     font-size: var(--font-lg);
 }
 .section{
@@ -44,7 +46,6 @@
 
 .section--products{
     width: 100%;
-    max-width: 50rem;
     display: grid;
     grid-template-columns: 1fr;
     align-items: start;
@@ -57,10 +58,11 @@
     max-width: unset;
 }
 .product__image{
-    width: 20%;
+    height: 8rem;
+    width: 8rem;
 }
 .product__info{
-    width: 80%;
+    width: 82%;
     margin: 0 2rem;
 }
 .product__info-text{
@@ -76,6 +78,6 @@
         align-self: flex-start;
     }
     .main--myorder{
-        grid-template-rows: 30% 70%;
+        justify-content: center;
     }
 }
