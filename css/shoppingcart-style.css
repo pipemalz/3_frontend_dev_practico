@@ -1,0 +1,35 @@
+.section--head{
+    display: none;
+}
+.product__close{
+    height: 1rem;
+}
+.order-summary{
+    padding: 2.5rem 1rem;
+}
+.product__info-text{
+    gap: 1rem;
+    align-items: center;
+}
+.product__close, .product__price{
+    justify-self: flex-start;
+}
+
+@media screen and (min-width: 640px){
+    .section--head{
+        display: flex;
+    }
+    .title{
+        margin-bottom: 1rem;
+    }
+    .main--shopping-cart{
+        grid-template-rows: repeat(3, auto) 1fr ;
+        position: absolute;
+        max-width: 40rem;
+        right: 0;
+        box-shadow: var(--box-shadow);
+    }
+    .button--bottom{
+        align-self: end;
+    }
+}

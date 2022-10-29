@@ -6,7 +6,7 @@
 }
 .title {
     display: none;
-    margin: 2rem 0 0 1.5rem;
+    margin: 2rem 0 4rem 1.5rem;
     font-size: var(--font-lg);
 }
 .section{
